@@ -1,0 +1,49 @@
+#header {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    margin-left: 100px;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn {
+    margin-top: 100px;
+    background: rgb(237, 242, 242);
+    padding: 25px;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    font-weight: bolder;
+}
+
+#btn:hover {
+    background: rgb(168, 65, 241);
+    }
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 110%;
+    height: auto;
+    z-index: -10;
+}

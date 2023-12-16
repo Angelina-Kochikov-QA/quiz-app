@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="history.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <button id="myButton">START</button>
+
+    <div class="container">
+    <form>
+         <div id="container-countdown">
+        <p id="countdown">Start</p>
+    </div>
+        <div class="question">
+          <label><span>Question 1.</span> Which year was the Declaration of Independence signed?</label>
+          <input class="test" type="radio" name="question1">1774
+          <input class="test" type="radio" name="question1">1775 
+          <input type="radio" name="question1">1777
+          <input type="radio" name="question1" id="answer1">1776
+        </div>
+        <div class="question">
+        <label><span>Question 2.</span> The United States bought Alaska from which country? </label>
+        <input type="radio" name="question2" >France
+        <input type="radio" name="question2" id="answer2">Russia
+        <input type="radio" name="question2">Spain
+        <input type="radio" name="question2">Brazil
+        </div>
+        <div class="question">
+          <label><span>Question 3.</span>  Which year was George H.W. Bush elected president? </label>
+        <input type="radio" name="question3">1989
+       <input type="radio" name="question3">1987
+        <input type="radio" name="question3" id="answer3">1988
+        <input type="radio" name="question3">1986
+        </div>
+        <div class="question">
+          <label><span>Question 4.</span> What year did the French Revolution start? </label>
+        <input type="radio" name="question4" >1780
+       <input type="radio" name="question4">1765
+        <input type="radio" name="question4">1790
+        <input type="radio" name="question4" id="answer4">1789
+        </div>
+        <div class="question">
+        <label><span>Question 5.</span>  In what year did child labor laws start in the United States?</label>
+        <input type="radio" name="question5" >1930
+       <input type="radio" name="question5">1928
+        <input type="radio" name="question5" id="answer5">1938
+        <input type="radio" name="question5">1936
+        </div>
+        <button type="submit" class="btn">Submit your answers</button>
+        <p id="show"></p>
+    
+        </form>
+
+        <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="myVideo" controls>
+            <source src="history.mp4" type="video/mp4">
+            </video>
+    
+    </div>
+    <script src="history.js"></script>
+</body>
+</html>

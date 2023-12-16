@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="geography.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <button id="myButton">START</button>
+
+    <div class="container">
+    <form>
+         <div id="container-countdown">
+        <p id="countdown">Start</p>
+    </div>
+        <div class="question">
+          <label><span>Question 1.</span> Which country has the largest population in the world?</label>
+          <input class="test" type="radio" name="question1">Russia
+          <input class="test" type="radio" name="question1">Korea 
+          <input type="radio" name="question1">Japan
+          <input type="radio" name="question1" id="answer1">China
+        </div>
+        <div class="question">
+        <label><span>Question 2.</span> What is the name of the largest country in the world? </label>
+        <input type="radio" name="question2" >China
+        <input type="radio" name="question2" id="answer2">Russia
+        <input type="radio" name="question2">Canada
+        <input type="radio" name="question2">England
+        </div>
+        <div class="question">
+          <label><span>Question 3.</span>  What is the capital of Canada? </label>
+        <input type="radio" name="question3">Toronto
+       <input type="radio" name="question3">Montreal
+        <input type="radio" name="question3" id="answer3">Ottawa
+        <input type="radio" name="question3">Calgary
+        </div>
+        <div class="question">
+          <label><span>Question 4.</span> What is the capital of Thailand? </label>
+        <input type="radio" name="question4" >Krabi
+       <input type="radio" name="question4">Thani
+        <input type="radio" name="question4">Phuket
+        <input type="radio" name="question4" id="answer4">Bangkok
+        </div>
+        <div class="question">
+        <label><span>Question 5.</span> What planet is closest to Earth?</label>
+        <input type="radio" name="question5" >Mercury
+       <input type="radio" name="question5">Jupiter
+        <input type="radio" name="question5" id="answer5">Venus
+        <input type="radio" name="question5">Mars
+        </div>
+        <button type="submit" class="btn">Submit your answers</button>
+        <p id="show"></p>
+    
+        </form>
+
+        <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="myVideo" controls>
+            <source src="geography.mp4" type="video/mp4">
+            </video>
+    
+    </div>
+    <script src="geography.js"></script>
+</body>
+</html>

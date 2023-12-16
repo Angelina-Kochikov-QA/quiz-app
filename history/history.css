@@ -1,0 +1,91 @@
+body {
+    background-color: #309fc1;
+    background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    }
+
+
+form {
+    background-color: #fff;  
+    width: 925px;
+    overflow: hidden;
+    padding: 50px;
+    margin-top: 30px;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap:wrap;
+    font-family: 'Rubik', sans-serif;
+    opacity: 80%;
+    height: 80vh;
+    color: #323233;
+
+    }
+    
+
+    label {
+        font-size: 16px;
+        padding: 10px;
+        margin: 10px;
+        font-weight: bold;
+    }
+
+.question {
+    padding: 30px;
+}
+
+button {
+    background-color: #f640f9;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    width: 60%;
+    border: none;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-left: 180px;
+    height: 7vh;
+    
+}
+
+
+#show {
+    
+    margin-left: 360px;
+
+}
+
+span {
+    color: rgb(23, 96, 123);
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 110%;
+    height: auto;
+    z-index: -10;
+}
+
+#myButton {
+    display: none;
+}
+
+#container-countdown {
+    display: flex;
+    margin: 0 auto;
+}
+
+#countdown {
+    background: linear-gradient(to right, #e85ef7, #f0f3f5);
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+    color: #323233;
+
+}
+
