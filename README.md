@@ -22,9 +22,7 @@
   
 - **Score displaying:** Keep track of your scores for each quiz and challenge yourself to improve.
 
-- **Time tracking:** Keep an eye on how many munites are left to finish quiz.
-
-- **Responsive Design:** Enjoy the quiz on different devices, thanks to the responsive design that adapts to various screen sizes.
+- **Time tracking:** Keep an eye on how many minutes are left to finish the quiz.
 
 
 
