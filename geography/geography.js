@@ -38,10 +38,11 @@ let timerId = setInterval(calculateTime, 1000);
 
 const button = document.querySelector('.btn');
 const answers = document.querySelectorAll('.answer')
-const par = document.querySelector('#show');
 
 
 button.addEventListener('click', totalPoints);
+
+const par = document.querySelector('#show');
 
 
 function totalPoints(e) {
