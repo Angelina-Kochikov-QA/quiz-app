@@ -1,6 +1,7 @@
 
 const buttonOne = document.querySelector('#myButton');
 
+
 buttonOne.addEventListener('click', function() {
     document.querySelector('#myVideo').play();
 })
@@ -36,9 +37,11 @@ let timerId = setInterval(calculateTime, 1000);
 
 
 const button = document.querySelector('.btn');
-button.addEventListener('click', totalPoints);
-
+const answers = document.querySelectorAll('.answer')
 const par = document.querySelector('#show');
+
+
+button.addEventListener('click', totalPoints);
 
 
 function totalPoints(e) {
@@ -46,27 +49,10 @@ function totalPoints(e) {
 
     let points = 0;
 
-
-    if (document.querySelector('#answer1').checked) {
-        points ++;
-    }
-
-    if (document.querySelector('#answer2').checked) {
-        points ++;
-    }
-
-    if (document.querySelector('#answer3').checked) {
-        points ++;
-    }
-
-    if (document.querySelector('#answer4').checked) {
-        points ++;
-    }
-
-    if (document.querySelector('#answer5').checked) {
-        points ++;
-    }
-
+    answers.forEach(answer => {
+        if (answer.checked) points++;
+    });
+    
     par.textContent = 'Your total points:' + points;
 
 }
